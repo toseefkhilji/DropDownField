@@ -13,6 +13,7 @@
 		D27594D22AB8600F0072CEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27594D02AB8600F0072CEFA /* Main.storyboard */; };
 		D27594D42AB860100072CEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27594D32AB860100072CEFA /* Assets.xcassets */; };
 		D27594D72AB860100072CEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27594D52AB860100072CEFA /* LaunchScreen.storyboard */; };
+		D27594DF2AB8601D0072CEFA /* DropDownField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27594DE2AB8601D0072CEFA /* DropDownField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D27594D32AB860100072CEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27594D62AB860100072CEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D27594D82AB860100072CEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27594DE2AB8601D0072CEFA /* DropDownField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		D27594C92AB8600F0072CEFA /* DropDownField */ = {
 			isa = PBXGroup;
 			children = (
+				D27594DE2AB8601D0072CEFA /* DropDownField.swift */,
 				D27594CA2AB8600F0072CEFA /* AppDelegate.swift */,
 				D27594CC2AB8600F0072CEFA /* SceneDelegate.swift */,
 				D27594CE2AB8600F0072CEFA /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				D27594CF2AB8600F0072CEFA /* ViewController.swift in Sources */,
 				D27594CB2AB8600F0072CEFA /* AppDelegate.swift in Sources */,
 				D27594CD2AB8600F0072CEFA /* SceneDelegate.swift in Sources */,
+				D27594DF2AB8601D0072CEFA /* DropDownField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

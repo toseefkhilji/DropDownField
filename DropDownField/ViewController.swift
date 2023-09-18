@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dropDown: DropDownField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+let gen1 = DropDownItem(title: "Male")
+        let gen2 = DropDownItem(title: "Female")
+        let gen3 = DropDownItem(title: "Other")
+
+        dropDown.dataSource = [gen1, gen2, gen3]
     }
 
 
